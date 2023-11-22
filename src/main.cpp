@@ -126,6 +126,9 @@ void setup()
     tft.init();
     tft.setRotation(1); // Ajuste conforme a orientação do seu display
     touch_calibrate();
+
+
+    
     tft.fillScreen(TFT_BLACK);
     desenharBotao(botaoLigar1);
     desenharBotao(botaoDesligar1);
